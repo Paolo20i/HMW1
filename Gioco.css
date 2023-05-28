@@ -1,0 +1,84 @@
+body{
+margin:0px;
+
+font-family: Helvetica, sans-serif;
+background-image:url(img/Sfondo.png);
+background-position: center;
+background-position-y: top;
+background-image:repeating-linear-gradient();
+background-attachment: fixed;
+}
+nav {
+
+    cursor: pointer;
+    margin-top:0px;
+    display: flex;
+    justify-content:space-around;
+    
+    align-items: center;
+    background-color: #070617a4;
+    font-family: sans-serif;
+    height: 50px;
+    
+  }
+  nav h1{
+    font-size:20px;
+  }
+  a:hover {
+    
+    background-color: rgba(94, 104, 131, 0.438);
+    color: rgb(255, 255, 255);
+    border-radius: 15%;
+  }
+  a{
+    text-decoration: none;
+    color:rgb(212, 218, 218);
+    padding: 0.5% 1.5%;
+  }
+  h1{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-family: Bungee;
+    text-shadow: 2px 0 #6441a5, 0 10px #6441a5, 0 5px #6441a5, 0 2px #6441a5;
+  }
+
+
+
+
+
+
+img{
+    margin-left:33%;
+    margin-right:33%;
+    width:400px;
+
+   
+}
+h3{
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    align-items: center;
+    margin-left:33%;
+    margin-right:33%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#3d095f;
+
+}
+
+p{
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    align-items: center;
+    margin-left:33%;
+    margin-right:33%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#ffffff;
+    
+
+   
+   
+}

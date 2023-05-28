@@ -1,0 +1,102 @@
+body {
+    margin:0px;
+  font-family: Helvetica, sans-serif;
+  background-image: url(img/SfondoGame.jpg);
+  background-position: center;
+
+  background-size: cover;
+  background-position-y: top;
+  background-attachment: fixed;
+  
+  }
+  nav h1{
+    margin-left:-150px;
+    margin-bottom:20px;
+  }
+  h1{
+    
+    color:rgb(255, 255, 255);
+    font-family: Bungee;
+    text-shadow: 2px 0 #6441a5, 0 10px #6441a5, 0 5px #6441a5, 0 2px #6441a5;
+  }
+  h2{
+    color:rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    
+  }
+ 
+
+  
+  .Salvati{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left:33%;
+    margin-right:33%;
+    background-color: rgba(65, 109, 206, 0.377);
+    
+  }
+  .Salvati img{
+    margin-bottom:100px;
+    border:5px solid #19405a80;
+    
+    width:450px;
+    height:300px;
+    transition: transform 0.3s ease;
+  }
+  .Salvati img:hover{
+    transform: scale(1.1);
+  }
+
+  .Salvati h3{
+    font-size:30px;
+    background: #959595;
+    background: radial-gradient(circle farthest-corner at center center, #959595 0%, #dbd8d8 67%, #9e9c9c 50%, #e4e0e0 53%, #cecccc 30%, #e7dede 87%, #ffffff 62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  .Salvati p{
+    color:rgb(213, 210, 219);
+    
+    border:2px solid rgb(127, 127, 177);
+    
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    width:300px;
+    margin-top:-60px;
+    margin-bottom:60px;
+  }
+  a:hover {
+    
+    background-color: rgba(94, 104, 131, 0.438);
+    color: rgb(255, 255, 255);
+    border-radius: 15%;
+  }
+  a{
+    text-decoration: none;
+    color:rgb(212, 218, 218);
+    padding: 0.5% 1.5%;
+  }
+  nav {
+
+    cursor: pointer;
+    margin-top:0px;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    background-color: #070617a4;
+    font-family: sans-serif;
+    height: 50px;
+    
+  }
+  nav h1{
+    font-size:20px;
+  }
+  img.gaming{
+    width:40px;
+    height:40px;
+    margin-left:-360px;
+  }

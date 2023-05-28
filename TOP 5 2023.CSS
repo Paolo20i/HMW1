@@ -1,0 +1,166 @@
+
+body{
+    margin: 0px;
+}
+.titolo{
+    position:relative;
+    z-index:4;
+    line-height: 12em;
+    color:  rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+  color:rgb(134, 117, 117);
+
+}
+.Overlay{
+
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:3;
+    height: 100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.3);
+    
+}
+header{
+  z-index:1;
+  height:400px;
+  width:auto;
+  padding: .1em;
+  position: relative;
+  background-image: url(img2/giochi.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+a.button:hover {
+    
+  background-color: rgba(19, 55, 102, 0.527);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 10%;
+  }
+  a{
+    color:rgb(36, 100, 100);
+    padding: 0.5% 1.5%;
+  }
+  nav {
+    cursor: pointer;
+    margin-top:0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #070617;
+    font-family: sans-serif;
+    height: 50px;
+  }
+  .Profilo img{
+    position: relative;
+    z-index: 2;
+    height: 100px;
+    width:100px;
+    border-radius: 100%;
+    margin-top:-50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: .2em solid rgb(201, 179, 179);
+  }
+
+  .Profilo h1{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+  }
+  .Profilo h2{
+    margin-top: -15px;
+    font-style: oblique;
+    text-align: center;
+    color:grey;
+    font-size: 15px;
+  }
+
+  .spazio{
+    
+    height:60px;
+    background-color: rgb(255, 255, 255);
+    margin-top:20px;
+    margin-bottom:-200px;
+
+  }
+  section{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:200px;
+    
+  }
+  .blocco{
+    width:66,7%;
+    
+  }
+  .Numero h1{
+    position: absolute;
+    left:-40px;
+    margin-top:0px;
+    background-color: rgb(255, 255, 255);
+    width:28%;
+    height:40px;
+    text-align: right;
+    font-size: 40px;
+    font-family: monospace;
+    color:rgb(163, 162, 162);
+  }
+  .foto{
+    width: 66,7%;
+  }
+  
+  .Paragrafo{
+    
+    margin-top:120px;
+    width: 44%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .Paragrafo h1{
+    font-family: monospace;
+    font-size: 40px;
+  }
+  .Paragrafo h2{
+    color: rgb(10, 185, 185);
+  }
+  p{
+    margin-top:0px;
+    text-align: left;
+    font-family: serif;
+    color: grey;
+  }
+ 
+  .foto img{
+    width:100%;
+    background-position: center;
+    background-size: cover;
+  }
+ 
+  footer{
+    height: 80px;
+    background-color: #070617;
+    margin-top: 120px;
+    
+}
+.fines {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+}
+ 
+  
